@@ -38,6 +38,12 @@ These instructions are only needed to create a development environment for Engin
 [Node.js](https://nodejs.org) is used for EngineeringPaper.xyz development. If you don't already have node installed, the easiest way to get it installed is to use the [Volta](https://volta.sh/) node installer.
 
 First, [fork and clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository. Then, in the cloned project folder, use the following commands to start a local dev server (commands tested on Linux, MacOS, and on Windows using WSL2):
+
+Edit: I used node v16
+```
+and the command rm -rf node_modules package-lock.json
+npm install
+```
 ``` bash
 # Install dependencies
 npm install
